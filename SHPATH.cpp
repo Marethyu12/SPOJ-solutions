@@ -44,7 +44,6 @@ int main()
 				cin >> connect >> cost;
 				
 				adj[i].push_back(make_pair(connect, cost));
-				//adj[connect].push_back(make_pair(i, cost));
 			}
 		}
 		
