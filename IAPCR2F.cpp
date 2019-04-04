@@ -5,7 +5,7 @@ using namespace std;
 class DSU
 {
 private:
-    vector<int> parent;
+	vector<int> parent;
 	vector<int> rank;
 	vector<int> money;
 	
