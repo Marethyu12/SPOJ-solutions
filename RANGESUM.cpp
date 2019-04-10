@@ -46,8 +46,7 @@ int main()
 			l = (int(sum.size()) - l) - 1;
 			r = (int(sum.size()) - r) - 1;
 			
-			if (l > r)
-				swap(l, r);
+			swap(l, r);
 			
 			if (l == 0)
 				cout << sum[r] << "\n";
