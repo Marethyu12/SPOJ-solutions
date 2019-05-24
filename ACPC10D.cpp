@@ -19,7 +19,7 @@ int cost(int row, int col)
 		return memo[row][col];
 	
 	if (row == n - 1 && col == 1)
-		return g[row][col];
+		return memo[row][col] = g[row][col];
 	
 	int q = INF;
 	
